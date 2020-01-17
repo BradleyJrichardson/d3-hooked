@@ -20,6 +20,13 @@ export const Container = styled.section`
 `;
 
 export const Svg = styled.svg`
-  height: 90%;
-  width: 100%;
+  /* height: 90%;
+  width: 100%; */
+  background: white;
+  overflow: visible;
+`;
+
+export const Path = styled.path`
+  stroke: red;
+  fill: none;
 `;
